@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Agri Point Farm & Feeds</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *::selection {
+            background-color: green;
+            color: white;
+          }
+        body {
+            font-family: 'Rubik', sans-serif;
+        }
+        #register_login_modal > div > ul > li.indicator {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body class="white">
+
+    <!------------------- DESKTOP NAVBAR ------------------->
+
+    <nav class="nav-extended">
+        <div class="nav-wrapper white" style="height: 125px; padding-top: 25px;">
+            <!-- Logo -->
+            <a href="./index.html" class="brand-logo center" style="margin-top: -38px;">
+                <img src="./images/apff_logo.png" alt="Agri Point Farm & Feeds" width="150">
+            </a>
+            <!-- Left Farm Nav -->
+            <a href="#" data-target="sidenav-left" class="sidenav-trigger">
+                <i class="material-icons green-text text-darken-2">menu</i>
+            </a>
+            <ul id="farm-nav-left" class="left hide-on-med-and-down">
+                <li><a href="./index.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Home</a></li>
+                <li><a href="./about.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">About</a></li>
+                <li><a href="./gallery.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Gallery</a></li>
+            </ul>
+
+            <ul id="feed-nav-right" class="right hide-on-med-and-down">
+                <li><a href="./products.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Products</a></li>
+                <li><a href="./outlets.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Outlets</a></li>
+                <li><a href="./contact.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!------------------- MOBILE SIDENAV ------------------->
+
+    <!-- Farm Side Nav Left -->
+    <ul class="sidenav" id="sidenav-left">
+        <!-- Logo -->
+        <li>
+            <div class="user-view">
+                <img src="./images/apff_logo.png" alt="Agri Point Farm & Feeds" width="300"
+                    style="margin-top: -20px; margin-left: -20px;">
+            </div>
+        </li>
+        <li><a href="./index.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Home</a></li>
+        <li><a href="./about.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">About</a></li>
+        <li><a href="./gallery.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Gallery</a></li>
+        <li><a href="./products.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Products</a></li>
+        <li><a href="./outlets.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Outlets</a></li>
+        <li><a href="./contact.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Contact</a></li>
+    </ul>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="./images/sample.jpg">
+                <div class="caption center-align">
+                    <h3><span class="green" style="padding: 10px;">Agri Point Farm & Feeds</span></h3>
+                    <h5 class="light grey-text text-lighten-3"><span class="green" style="padding: 10px;">Farm, Feed & Tourism</span></h5>
+                </div>
+            </li>
+            <li>
+                <img src="./images/sample1.jpg">
+                <div class="caption left-align">
+                    <h3><span class="green" style="padding: 10px;">Agri Point Farm & Feeds</span></h3>
+                    <h5 class="light grey-text text-lighten-3"><span class="green" style="padding: 10px;">FARM</span></h5>
+                </div>
+            </li>
+            <li>
+                <img src="./images/sample2.jpg">
+                <div class="caption right-align">
+                    <h3><span class="green" style="padding: 10px;">Agri Point Farm & Feeds</span></h3>
+                    <h5 class="light grey-text text-lighten-3"><span class="green" style="padding: 10px;">FEED</span></h5>
+                </div>
+            </li>
+            <li>
+                <img src="./images/sample3.jpg">
+                <div class="caption center-align">
+                    <h3><span class="green" style="padding: 10px;">Agri Point Farm & Feeds</span></h3>
+                    <h5 class="light grey-text text-lighten-3"><span class="green" style="padding: 10px;">AGRI TOURISM</span></h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="cards">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content green-text center" style="text-transform: capitalize;">
+                        <a href="./about.html#farm" class="card-title text-uppercase green-text" style="font-weight: bold;">Farm</a>
+                        <p>Animals & Birds Plays A Vital Role In Human Life, Mainly Because Of Their Meat As Well As For Hobby.</p>
+                        <p>We have a set up of Animal Husbandry, Exotic Goat Farm, Exotic Birds Aviary, Plantation & much more at our Farm...</p>
+                    </div>
+                    <div class="center">
+                        <a href="./about.html#farm" class="btn-floating waves-effect waves-green transparent"><i class="material-icons green-text">keyboard_arrow_right</i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content green-text center" style="text-transform: capitalize;">
+                        <a href="./about.html#feeds" class="card-title text-uppercase green-text" style="font-weight: bold;">Feeds</a>
+                        <p>Human Keeps Animals & Birds As Their Pets With Lot Of Love & Care, So We Have To Fed Them With As Best As Possible Quality Feed.</p>
+                        <p>We are the Manufacturers of Animal Feeds which guarentees the results in their growth and improves other vital functions.</p>
+                    </div>
+                    <div class="center">
+                        <a href="./about.html#feeds" class="btn-floating waves-effect waves-green transparent"><i class="material-icons green-text">keyboard_arrow_right</i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content green-text center" style="text-transform: capitalize;">
+                        <a href="./about.html#tourism" class="card-title text-uppercase green-text" style="font-weight: bold;">Agri Tourism</a>
+                        <p>Konkan is known for being home to tropical beaches, lush greenery, and prominent forts.</p>
+                        <p>We invite you to come and Enjoy our Agricultural Tours, the scenerity of mountains, culture & traditions of our village and experience rural life.</p>
+                    </div>
+                    <div class="center" style="padding-bottom: 15px">
+                        <a href="./about.html#tourism" class="btn-floating waves-effect waves-green transparent"><i class="material-icons green-text">keyboard_arrow_right</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="white z-depth-2">
+            <div class="container">
+                <div class="section green-text text-darken-2" style="font-weight: bold; text-align:center;">
+                    <div class="row">
+                        <div class="col s12">
+                            Agri Point Farm & Feeds © 2022 | All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="./script.js"></script>
+    
+    <script>
+        var cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.style.height = '245px';
+        })
+    
+        var caption_headers = document.querySelectorAll('.caption h3');
+        caption_headers.forEach(header => {
+            header.style.lineHeight = 2;
+        })
+    </script>
+
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

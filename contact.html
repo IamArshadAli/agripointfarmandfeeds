@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Agri Point Farm & Feeds</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *::selection {
+            background-color: green;
+            color: white;
+          }
+        body {
+            font-family: 'Rubik', sans-serif;
+        }
+        #register_login_modal > div > ul > li.indicator {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body class="white">
+    <nav class="nav-extended">
+        <div class="nav-wrapper white" style="height: 125px; padding-top: 25px;">
+            <!-- Logo -->
+            <a href="./index.html" class="brand-logo center" style="margin-top: -38px;">
+                <img src="./images/apff_logo.png" alt="Agri Point Farm & Feeds" width="150">
+            </a>
+            <!-- Left Farm Nav -->
+            <a href="#" data-target="sidenav-left" class="sidenav-trigger">
+                <i class="material-icons green-text text-darken-2">menu</i>
+            </a>
+            <ul id="farm-nav-left" class="left hide-on-med-and-down">
+                <li><a href="./index.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Home</a></li>
+                <li><a href="./about.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">About</a></li>
+                <li><a href="./gallery.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Gallery</a></li>
+            </ul>
+
+            <ul id="feed-nav-right" class="right hide-on-med-and-down">
+                <li><a href="./products.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Products</a></li>
+                <li><a href="./outlets.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Outlets</a></li>
+                <li><a href="./contact.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!------------------- MOBILE SIDENAV's ------------------->
+
+    <!-- Farm Side Nav Left -->
+    <ul class="sidenav" id="sidenav-left">
+        <!-- Logo -->
+        <li>
+            <div class="user-view">
+                <img src="./images/apff_logo.png" alt="Agri Point Farm & Feeds" width="300"
+                    style="margin-top: -20px; margin-left: -20px;">
+            </div>
+        </li>
+        <li><a href="./index.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Home</a></li>
+        <li><a href="./about.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">About</a></li>
+        <li><a href="./gallery.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Gallery</a></li>
+        <li><a href="./products.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Products</a></li>
+        <li><a href="./outlets.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Outlets</a></li>
+        <li><a href="./contact.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Contact</a></li>
+    </ul>
+
+    <div class="section">
+        <div class="row center" id="office_info">
+            <div class="col s12 m4">
+                <i class="material-icons medium">smartphone</i>
+                <p><a class="black-text" href="https://wa.me/+918446190168">+91 84461 90168</a></p>
+                <p><a class="black-text" href="tel:+918237155782">+91 8237155782</a></p>
+            </div>
+            <div class="col s12 m4">
+                <i class="material-icons medium">email</i>
+                <p><a class="black-text" href="mailto:info@agripointfarmandfeeds.com">info@agripointfarmandfeeds.com</a></p>
+            </div>
+            <div class="col s12 m4">
+                <i class="material-icons medium">location_on</i>
+                <!-- <p>646, Horizon View 1, Ground Floor,</p>
+                <p>Mirjoli, Uktad Bypass, Guhagar Road,</p>
+                <p>Chiplun, Maharashtra, Ratnagiri -</p>
+                <p>415605, India</p> -->
+                <p>Donavali Road, Posare</p>
+                <p>Tal- Chiplun, Dist- Ratnagiri</p>
+                <p>Maharashtra - 415628</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="row">
+                  <!-- Contact Form -->
+                  <form method="post" class="col s11 offset-m1">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="cf_name" type="text" class="validate">
+                          <label for="cf_name">Your Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">smartphone</i>
+                          <input id="cf_mobile" type="tel" class="validate">
+                          <label for="cf_mobile">Mobile No.</label>
+                        </div>
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">email</i>
+                          <input id="cf_email" type="email" class="validate">
+                          <label for="cf_email">Email Address</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="cf_message" class="materialize-textarea"></textarea>
+                            <label for="cf_message">Message</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                          <div class="col s12 center">
+                        <button class="btn waves-effect waves-light green" type="submit">Submit
+                            <i class="material-icons right">send</i>
+                          </button>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+            </div>
+            <!-- add shop map -->
+            <div class="col s12 m6">
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.4052949979205!2d73.40044711484995!3d17.535880087989824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be9e367b26a8621%3A0x7ad5a7517f4db6ee!2sAgri%20Point%20Farms%20%26%20Information%20Center!5e0!3m2!1sen!2sin!4v1647949209870!5m2!1sen!2sin" width="100%" height="325" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="white z-depth-2">
+            <div class="container">
+                <div class="section green-text text-darken-2" style="font-weight: bold; text-align:center;">
+                    <div class="row">
+                        <div class="col s12">
+                            Agri Point Farm & Feeds © 2022 | All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="./script.js"></script>
+
+    <script>
+        var icons = document.querySelectorAll('.section .material-icons')
+        icons.forEach((icon,index)=>{
+            if(index==icons.length-1) return null;
+            icon.style.color='#4caf50';
+        })
+    </script>
+    
+
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

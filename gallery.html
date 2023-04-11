@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Agri Point Farm & Feeds</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *::selection {
+            background-color: green;
+            color: white;
+          }
+        body {
+            font-family: 'Rubik', sans-serif;
+        }
+        #register_login_modal > div > ul > li.indicator {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body class="white">
+    <nav class="nav-extended">
+        <div class="nav-wrapper white" style="height: 125px; padding-top: 25px;">
+            <!-- Logo -->
+            <a href="./index.html" class="brand-logo center" style="margin-top: -38px;">
+                <img src="./images/apff_logo.png" alt="Agri Point Farm & Feeds" width="150">
+            </a>
+            <!-- Left Farm Nav -->
+            <a href="#" data-target="sidenav-left" class="sidenav-trigger">
+                <i class="material-icons green-text text-darken-2">menu</i>
+            </a>
+            <ul id="farm-nav-left" class="left hide-on-med-and-down">
+                <li><a href="./index.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Home</a></li>
+                <li><a href="./about.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">About</a></li>
+                <li><a href="./gallery.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Gallery</a></li>
+            </ul>
+
+            <ul id="feed-nav-right" class="right hide-on-med-and-down">
+                <li><a href="./products.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Products</a></li>
+                <li><a href="./outlets.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Outlets</a></li>
+                <li><a href="./contact.html" class="text-uppercase green-text text-darken-2" style="font-weight: bold;">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!------------------- MOBILE SIDENAV's ------------------->
+
+    <!-- Farm Side Nav Left -->
+    <ul class="sidenav" id="sidenav-left">
+        <!-- Logo -->
+        <li>
+            <div class="user-view">
+                <img src="./images/apff_logo.png" alt="Agri Point Farm & Feeds" width="300"
+                    style="margin-top: -20px; margin-left: -20px;">
+            </div>
+        </li>
+        <li><a href="./index.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Home</a></li>
+        <li><a href="./about.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">About</a></li>
+        <li><a href="./gallery.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Gallery</a></li>
+        <li><a href="./products.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Products</a></li>
+        <li><a href="./outlets.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Outlets</a></li>
+        <li><a href="./contact.html" class="text-uppercase green-text text-darken-2" style="font-weight:bold;">Contact</a></li>
+    </ul>
+
+    <div class="container">
+  
+        <!-- Animal Husbandry Carousel -->
+        <div class="row">
+          <div class="col s12">
+            <h6 class="text-uppercase center green-text" style="font-weight: bold;">Animal Husbandry</h6>
+            <!-- Desktop & Tablet View -->
+            <div class="col s12 hide-on-small-only">
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="./images/cow_ghee.jpeg" width="250" height="250">
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="./images/cow_milk.jpeg" width="250" height="250">
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="./images/gir_cow_ghee.jpeg" width="250" height="250">
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="./images/corn_silage1.jpeg" width="250" height="250">
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLWKIerP3cHxv4ghmO1FTq8dOk33CSeWwYGfMpHYG4WnXKgcWhuVYRqGiWQOt2EgaRIzhi8CScIBmodz_3C4nMJaoI5Da3JsL1xIpVHKKVUlOR5MGpGMyAeWUXPGQXwLkcpGRVr4jAp9knAPEd2xQX5p=w540-h360-no" width="250" height="250">
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLVE-CMWtXxMhqLzZmK7TYduh2ui_GlYSAo2tyBb8fSyMcZFhVWKYab6llSSUGiwmAwFCKnpYJHvakkwLnp3WExfTW9RKKACe0XSCz2gsvQ76dooK9p5jnz0CnjOry6r1WfpOEZb8UsSX0G3Uiuc1sLg=s500-no" width="250" height="250">
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <!-- Mobile View -->
+            <div class="carousel mobile-carousel-slider hide-on-med-and-up">
+                <a class="carousel-item" href="#one!">
+                    <img src="./images/cow_ghee.jpeg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="./images/cow_milk.jpeg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="./images/gir_cow_ghee.jpeg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="./images/corn_silage1.jpeg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#five!">
+                    <img src="./images/indian_desi_cows.jpeg" class="materialboxed" width="250" height="250" />
+                </a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Exotic Goat Farm Carousel -->
+        <div class="row">
+          <div class="col s12">
+            <h6 class="text-uppercase center green-text" style="font-weight: bold;">Exotic Goat Farm</h6>
+            <!-- Desktop & Tablet View -->
+            <div class="col s12 hide-on-small-only">
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLUASuyRIfzNolyU6fOjI45xUfKqRdnOK6o83rcYexaM5k6EHjbOvtu-nXVCFrWRruhxI6CqhpB4g7dRPkXPXwab-8VLPvAeTgOcj1K8GFkrh0js8SpECadFjC3PYZiYpncqrAzfvIbDluN8DFfh3wEq=w963-h950-no" width="250" height="250">
+                          <!-- <span class="card-title">African Boer</span> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLVw2J_rlsfjZqDeZjbVo0nbRwPyQyrLkzdC8ZzUgPWXyIgqxIDyDIyj88Tex-MfNrnR6WraV9u3ZBVZ_H0Q14VDZoCCdzw6hcPDxgdju0bI1rFfKrJmtHxZ1a0VomCTDnxTvpUmAYJCGtPHItBwDN3h=w1280-h853-no" width="250" height="250">
+                          <!-- <span class="card-title">African Boer</span> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLVYlufH4ggWkW2IMmbh6YbX77I-thnNl3cdrQ9YKIxuI2gxZZJUOege1e20wITQ29uGOodSIe6sQGRNF2Na2RV3ntR61lUuFf0MYtsexDbmYCbyXZJnd8CUL1Pi4ZdbTyhYVe_knWm0xmEnrMf-mDKy=w585-h950-no" width="250" height="250">
+                          <!-- <span class="card-title">Kota</span> -->
+                        </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLU5AYhvlNY8lnrNB2jFo2PLVk8lhFEtzFpMfVzh9bTMf5zlDPEq6UdKDPxYsB4auJboqeTLS398H0vhWRR1QZjIBNFpraKTeOOsZRPmcaL_5W6yh48DepwQPZHjZKonPhT5HLkdXcFvgQjtJzy1jo1y=w634-h950-no" width="250" height="250">
+                          <!-- <span class="card-title">Kota</span> -->
+                        </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLWDANl_ftKPFZOUxopMWmRPpusFGVElVluMIqsNderFbnAatVhinVzgQXuJdWWVy49VfuyOg-9Ay2ZlxRWLwjFkOsco2okBrn5TjDjT3PfV1Cbd4Qp_ghmyYQx4KWNhX31-elwYSI5l-JXXs6HyZs3W=w634-h950-no" width="250" height="250">
+                          <!-- <span class="card-title">Beetal</span> -->
+                        </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLWZZbpkD7OkQvPnHChyt63uLEVu2w6VlRtcM3XQf2Pz0kMntUAytAJO84caInhf2TVYIv5qiKst7Czlz8eKwMItnfsR5OTf54MVNcghKlvPpOVmBVAUfKno_cm5wbYFY-p8GjA0biizg-axLFhU5we4=w960-h638-no" width="250" height="250">
+                          <!-- <span class="card-title">Beetal</span> -->
+                        </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLUTlJEyVxcy8_bwVJxd8rUe8Ef4GKl7HYI2396lFzFVDTzeoH6Q-QwmjdLY_yum--QhlJ8y6ma-7dakYsEfsENPwIfF_TrFrDqF61aOELho144lLATI9Ha-MFDF3ul3vClc6MB0tNnpzpJUgpIwTVmi=w1080-h718-no" width="250" height="250">
+                          <!-- <span class="card-title">Sojat</span> -->
+                        </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLVzF5DnBSk0x_eiwDal_BFUkMMvbZFAynCpVQCAfovGbVliUxliw6CnleL72uvZZqxqUBA9ClctSAOx5rNc0dLD2d32kpmAiBgNjN-paoO33_amh_GRlWE3BrpAdt5xvqtklE9SiCnj-La4IwiIC8Y1=w1024-h683-no" width="250" height="250">
+                          <!-- <span class="card-title">Sojat</span> -->
+                        </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLWgO8Z95gvT9ZGPBP6ptMNosq2OGmKhKCWH7cFC0lUaL9NsOg2fzjDSZ36awhuAZclywoqY4qQidXyiNXTwGS3SJBCcWsO15_ttSJzDZpmvDDqfgCuTweX46pVZhk0O1hzN5WzPUGcAaF1Rl2nhmrx5=w960-h638-no" width="250" height="250">
+                          <!-- <span class="card-title">Sojat</span> -->
+                        </div>
+                  </div>
+              </div>
+          </div>
+            <!-- Mobile View -->
+            <div class="carousel mobile-carousel-slider hide-on-med-and-up">
+              <a class="carousel-item" href="#one!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLUASuyRIfzNolyU6fOjI45xUfKqRdnOK6o83rcYexaM5k6EHjbOvtu-nXVCFrWRruhxI6CqhpB4g7dRPkXPXwab-8VLPvAeTgOcj1K8GFkrh0js8SpECadFjC3PYZiYpncqrAzfvIbDluN8DFfh3wEq=w963-h950-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#two!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLVw2J_rlsfjZqDeZjbVo0nbRwPyQyrLkzdC8ZzUgPWXyIgqxIDyDIyj88Tex-MfNrnR6WraV9u3ZBVZ_H0Q14VDZoCCdzw6hcPDxgdju0bI1rFfKrJmtHxZ1a0VomCTDnxTvpUmAYJCGtPHItBwDN3h=w1280-h853-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#three!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLVYlufH4ggWkW2IMmbh6YbX77I-thnNl3cdrQ9YKIxuI2gxZZJUOege1e20wITQ29uGOodSIe6sQGRNF2Na2RV3ntR61lUuFf0MYtsexDbmYCbyXZJnd8CUL1Pi4ZdbTyhYVe_knWm0xmEnrMf-mDKy=w585-h950-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#four!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLU5AYhvlNY8lnrNB2jFo2PLVk8lhFEtzFpMfVzh9bTMf5zlDPEq6UdKDPxYsB4auJboqeTLS398H0vhWRR1QZjIBNFpraKTeOOsZRPmcaL_5W6yh48DepwQPZHjZKonPhT5HLkdXcFvgQjtJzy1jo1y=w634-h950-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#five!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLWDANl_ftKPFZOUxopMWmRPpusFGVElVluMIqsNderFbnAatVhinVzgQXuJdWWVy49VfuyOg-9Ay2ZlxRWLwjFkOsco2okBrn5TjDjT3PfV1Cbd4Qp_ghmyYQx4KWNhX31-elwYSI5l-JXXs6HyZs3W=w634-h950-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#six!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLWZZbpkD7OkQvPnHChyt63uLEVu2w6VlRtcM3XQf2Pz0kMntUAytAJO84caInhf2TVYIv5qiKst7Czlz8eKwMItnfsR5OTf54MVNcghKlvPpOVmBVAUfKno_cm5wbYFY-p8GjA0biizg-axLFhU5we4=w960-h638-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#seven!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLUTlJEyVxcy8_bwVJxd8rUe8Ef4GKl7HYI2396lFzFVDTzeoH6Q-QwmjdLY_yum--QhlJ8y6ma-7dakYsEfsENPwIfF_TrFrDqF61aOELho144lLATI9Ha-MFDF3ul3vClc6MB0tNnpzpJUgpIwTVmi=w1080-h718-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#eight!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLVzF5DnBSk0x_eiwDal_BFUkMMvbZFAynCpVQCAfovGbVliUxliw6CnleL72uvZZqxqUBA9ClctSAOx5rNc0dLD2d32kpmAiBgNjN-paoO33_amh_GRlWE3BrpAdt5xvqtklE9SiCnj-La4IwiIC8Y1=w1024-h683-no" width="250" height="250" />
+              </a>
+              <a class="carousel-item" href="#nine!">
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLWgO8Z95gvT9ZGPBP6ptMNosq2OGmKhKCWH7cFC0lUaL9NsOg2fzjDSZ36awhuAZclywoqY4qQidXyiNXTwGS3SJBCcWsO15_ttSJzDZpmvDDqfgCuTweX46pVZhk0O1hzN5WzPUGcAaF1Rl2nhmrx5=w960-h638-no" width="250" height="250" />
+              </a>
+          </div>
+          </div>
+        </div>
+      
+        <!-- Exotic Birds Aviory Carousel -->
+        <div class="row">
+          <div class="col s12">
+            <h6 class="text-uppercase center green-text" style="font-weight: bold;">Exotic Birds Aviary</h6>
+            <!-- Desktop & Tablet View -->
+            <div class="col s12 hide-on-small-only">
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAPE2viYRB-XjI3W2NMRlncktYiEXyR7qnfA&usqp=CAU" width="250" height="250">
+                          <span class="card-title">Macaw</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLWSyk5bsvMQQTK1u5HL1VL2bIdZ_4OgJD7vRuE8ZAA9RhaURcvJn3Lwr2dWnoPjisA0qqrB-31HGg36mLOUCyDZnG2RyOp9dk8M1hsktjx0KqmNfnAq0ahktgFHLJQUAZYvSjALBSKgFb7Hb2FzCTHF=w1200-h900-no" width="250" height="250">
+                          <span class="card-title">Umbrella Cockatoo</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdczBqPxj7kLKTTg0BZOaI1ZKNc5d19mNo3w&usqp=CAU" width="250" height="250">
+                          <span class="card-title">Sun Conure</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLUxBPS6xlsRLlhOXwke7jVd7vZXzuZOWfYOX32zJ5ihxFNU1FNrmimDuI48s0K3HG5qBjZCtsnWkTxunGFgorOnzm1i_zoswYyzzrOl1UAyz8N3wvNJBnX-OWolIeZV1FQhMz9b7Q9fH1UUn1cxUqa2=w461-h600-no" width="250" height="250">
+                          <span class="card-title">Ringneck Parrot</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLUqgt1rYcJr75O9eJvGC0ag5fqF6Sd7aliDaNfjCNYe-e1JfdS6_poX49BjjzVu7wrzP7a9OilXNAZus48A4CZ4djhtP5cdsSX032dg5aohPJejmwDIo6lzTO7goTsZKXNg-Abdcg4sIH1zav9z0Bxz=w420-h280-no" width="250" height="250">
+                          <span class="card-title">Pocket Parrot</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLVzQguPB3S-EWSS3aIAxR8iI6p6rvAffmZ2iU0NSE0Dq4sz_AGaC-fNocIYSqq7Fjehjn6e-cHqnntc012k9KG0iGB_WOaCCMUukW6uvXYiBL04yd5C_Qx4ddY-wpLiyVBIDp2o9cYzwxEtqnby2IJa=w735-h950-no" width="250" height="250">
+                          <span class="card-title green-text">Grey Parrot</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <!-- Mobile View -->
+            <div class="carousel mobile-carousel-slider hide-on-med-and-up">
+                <a class="carousel-item" href="#one!">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAPE2viYRB-XjI3W2NMRlncktYiEXyR7qnfA&usqp=CAU" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLWSyk5bsvMQQTK1u5HL1VL2bIdZ_4OgJD7vRuE8ZAA9RhaURcvJn3Lwr2dWnoPjisA0qqrB-31HGg36mLOUCyDZnG2RyOp9dk8M1hsktjx0KqmNfnAq0ahktgFHLJQUAZYvSjALBSKgFb7Hb2FzCTHF=w1200-h900-no" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdczBqPxj7kLKTTg0BZOaI1ZKNc5d19mNo3w&usqp=CAU" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLUxBPS6xlsRLlhOXwke7jVd7vZXzuZOWfYOX32zJ5ihxFNU1FNrmimDuI48s0K3HG5qBjZCtsnWkTxunGFgorOnzm1i_zoswYyzzrOl1UAyz8N3wvNJBnX-OWolIeZV1FQhMz9b7Q9fH1UUn1cxUqa2=w461-h600-no" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#five!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLUqgt1rYcJr75O9eJvGC0ag5fqF6Sd7aliDaNfjCNYe-e1JfdS6_poX49BjjzVu7wrzP7a9OilXNAZus48A4CZ4djhtP5cdsSX032dg5aohPJejmwDIo6lzTO7goTsZKXNg-Abdcg4sIH1zav9z0Bxz=w420-h280-no" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#six!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLVzQguPB3S-EWSS3aIAxR8iI6p6rvAffmZ2iU0NSE0Dq4sz_AGaC-fNocIYSqq7Fjehjn6e-cHqnntc012k9KG0iGB_WOaCCMUukW6uvXYiBL04yd5C_Qx4ddY-wpLiyVBIDp2o9cYzwxEtqnby2IJa=w735-h950-no" class="materialboxed" width="250" height="250" />
+                </a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Premium Feeds Carousel -->
+        <div class="row">
+          <div class="col s12">
+            <h6 class="text-uppercase center green-text" style="font-weight: bold;">Premium Feeds</h6>
+            <!-- Desktop & Tablet View -->
+            <div class="col s12 hide-on-small-only">
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLXKR5_UI4EKNEwNwb87rEn9Lym9HFbMjqoIwLZFo3sVbysD_dkuJqFnw2VtpOPQ1saA2cRgV-Vrff0BI0wFTx8Uai_ksnKcCEuLkI5F0-dJPC9GcI7z2V3udgSMFUwLgCNiTwtCCd7g2pU_qNZ7DRKK=s950-no" width="250" height="250">
+                          <span class="card-title green-text">Growth Special</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLXNops0n_zVTsazcWFGkfVvlDkfw2KA9OKz0JR9KCSq82hahbu2NnXFXmQiG5JcUlflQ3wEPcdbyc7jbux2KM_Ga64HXaLVEMRBr52zi7XbV4t05X695llM2MCmUwpoQyjtIe8pTkFHgmEzQt_63UjZ=s950-no" width="250" height="250">
+                          <span class="card-title green-text">Ready To Eat</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://lh3.googleusercontent.com/pw/AM-JKLVcubcbkrFspOuR7PhQzsj5zhR9HCh9egwGJcQ67thON6RqOW6zdnp5vHoqvi-o1S0hSYpBWStKexGlBeWxSg5ytq7rolG7QlCMfMPgrzRTkDFwzxnsbWgGrxhua282VU4y6GlPpFpQG1i9_cD0gzEQ=s950-no" width="250" height="250">
+                          <span class="card-title green-text">EveryDay</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <!-- Mobile View -->
+            <div class="carousel mobile-carousel-slider hide-on-med-and-up">
+                <a class="carousel-item" href="#one!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLXKR5_UI4EKNEwNwb87rEn9Lym9HFbMjqoIwLZFo3sVbysD_dkuJqFnw2VtpOPQ1saA2cRgV-Vrff0BI0wFTx8Uai_ksnKcCEuLkI5F0-dJPC9GcI7z2V3udgSMFUwLgCNiTwtCCd7g2pU_qNZ7DRKK=s950-no" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLXNops0n_zVTsazcWFGkfVvlDkfw2KA9OKz0JR9KCSq82hahbu2NnXFXmQiG5JcUlflQ3wEPcdbyc7jbux2KM_Ga64HXaLVEMRBr52zi7XbV4t05X695llM2MCmUwpoQyjtIe8pTkFHgmEzQt_63UjZ=s950-no" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="https://lh3.googleusercontent.com/pw/AM-JKLVcubcbkrFspOuR7PhQzsj5zhR9HCh9egwGJcQ67thON6RqOW6zdnp5vHoqvi-o1S0hSYpBWStKexGlBeWxSg5ytq7rolG7QlCMfMPgrzRTkDFwzxnsbWgGrxhua282VU4y6GlPpFpQG1i9_cD0gzEQ=s950-no" class="materialboxed" width="250" height="250" />
+                </a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Tourism Activities Carousel -->
+        <div class="row">
+          <div class="col s12">
+            <h6 class="text-uppercase center green-text" style="font-weight: bold;">Tourism Activities</h6>
+            <!-- Desktop & Tablet View -->
+            <div class="col s12 hide-on-small-only">
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://kj1bcdn.b-cdn.net/media/18158/goat-feeding.jpg" width="250" height="250">
+                          <span class="card-title">Goat Farm</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://im.whatshot.in/img/2021/Jun/budgerigars-and-cockatiels-racine-zoo-wisconsin-usa-aviary-6a-cropped-1-1623648582.jpg?w=800&h=800&cc=1" width="250" height="250">
+                          <span class="card-title">Birds Aviary</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://cdn.iamcountryside.com/wp-content/uploads/2019/03/Three-cows-standing-in-front-of-a-herd-in-the-grass-175734089_4288x2848-e1486401586844.jpeg" width="250" height="250">
+                          <span class="card-title">Dairy Farm</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://media-cdn.tripadvisor.com/media/photo-s/0b/ed/0d/39/archery-22-air-rifle.jpg" width="250" height="250">
+                          <span class="card-title">Archery & Rifle Shooting</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://helios-i.mashable.com/imagery/articles/01GTQmPKsWR6iedn7naskST/hero-image.fill.size_1248x702.v1623388694.png" width="250" height="250">
+                          <span class="card-title">Campfire</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img class="materialboxed" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stargazing-cover-image-1595635458.jpg?crop=1xw:0.7776427703523694xh;center,top&resize=1200:*" width="250" height="250">
+                          <span class="card-title">Stargazing</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <!-- Mobile View -->
+            <div class="carousel mobile-carousel-slider hide-on-med-and-up">
+                <a class="carousel-item" href="#one!">
+                    <img src="https://kj1bcdn.b-cdn.net/media/18158/goat-feeding.jpg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="https://im.whatshot.in/img/2021/Jun/budgerigars-and-cockatiels-racine-zoo-wisconsin-usa-aviary-6a-cropped-1-1623648582.jpg?w=800&h=800&cc=1" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="https://cdn.iamcountryside.com/wp-content/uploads/2019/03/Three-cows-standing-in-front-of-a-herd-in-the-grass-175734089_4288x2848-e1486401586844.jpeg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/ed/0d/39/archery-22-air-rifle.jpg" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#five!">
+                    <img src="https://helios-i.mashable.com/imagery/articles/01GTQmPKsWR6iedn7naskST/hero-image.fill.size_1248x702.v1623388694.png" class="materialboxed" width="250" height="250" />
+                </a>
+                <a class="carousel-item" href="#six!">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stargazing-cover-image-1595635458.jpg?crop=1xw:0.7776427703523694xh;center,top&resize=1200:*" class="materialboxed" width="250" height="250" />
+                </a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+    <footer>
+        <div class="white z-depth-2">
+            <div class="container">
+                <div class="section green-text text-darken-2" style="font-weight: bold; text-align:center;">
+                    <div class="row">
+                        <div class="col s12">
+                            Agri Point Farm & Feeds © 2022 | All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="./script.js"></script>
+    
+
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
